@@ -1,0 +1,15 @@
+.status {
+  margin-bottom: 10px;
+}
+
+.board-wraper {
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.board-row:after{
+  clear: both;
+  content: "";
+  display: table;
+}
